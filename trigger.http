@@ -1,0 +1,19 @@
+GET http://localhost:400/todos
+###
+GET http://localhost:400/todos/?status
+###
+GET http://localhost:400/todos/?priority=HIGHt
+###
+GET http://localhost:400/todos/?priority=HIGH&status=IN%20PROGRESS
+###
+GET http://localhost:400/todos/?category=WORK&status=DONE
+###
+GET http://localhost:400/todos/?category=HOMEt
+###
+GET http://localhost:400/todos/?category=LEARNING&priority=HIGH
+###
+GET http://localhost:400/todos/?search_q=Buy
+###
+GET http://localhost:400/todos/2/
+###
+GET http://localhost:400/agenda/?date='2021-02-22'
